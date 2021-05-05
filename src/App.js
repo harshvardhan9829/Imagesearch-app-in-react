@@ -22,7 +22,7 @@ class App extends Component {
   render() {
     return (
       <div className="ui container" style={{ marginTop: '10px' }}>
-        <h3>app.js</h3>
+        <h3>Type word and press Enter</h3>
         <SearchBar onSubmit={this.onSearchSubmit} />
         <ImageList images={this.state.images} />
       </div>
