@@ -24,7 +24,7 @@ export default class ImageCard extends Component {
                 <img
                     ref={this.imageRef}
                     alt={description}
-                    src={urls.regular}
+                    src={urls.full}
 
                 />
             </div>
